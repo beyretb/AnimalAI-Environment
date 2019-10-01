@@ -711,6 +711,7 @@ MonoBehaviour:
     _brainsToControl:
     - {fileID: 11400000, guid: dcc8ee3434f5c4a25a17448f1a1e8a3c, type: 2}
   playerMode: 0
+  externalInferenceMode: 0
   maxSteps: 0
   trainingConfiguration:
     width: 80
@@ -726,6 +727,8 @@ MonoBehaviour:
     targetFrameRate: 60
   arena: {fileID: 1540725604319108, guid: 95ed7bd32dcb7ff4f8f177e1db14d0a3, type: 3}
   playerBrain: {fileID: 11400000, guid: 358def27ad8a947d5b6f513fe8e8e248, type: 2}
+  maximumResolution: 512
+  minimumResolution: 4
 --- !u!4 &1823249184
 Transform:
   m_ObjectHideFlags: 0
